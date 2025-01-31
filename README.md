@@ -17,8 +17,8 @@ To run this API locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/Zealina/HNG-simple_api
+   cd HNG-simple_api
    ```
 
 2. Install dependencies:
