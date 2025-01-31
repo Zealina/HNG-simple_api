@@ -11,6 +11,7 @@ CORS(app)
 
 @app.route('/')
 def index():
+    """Returns owner credentials"""
     my_credentials_json = {
             'email': 'hamilsebastine@gmail.com',
             'current_datetime': datetime.now().isoformat(),
@@ -20,4 +21,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(port=5001)
+    app.run(port=5000)

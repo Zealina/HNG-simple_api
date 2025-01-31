@@ -1,4 +1,4 @@
-Public API - Basic Credentials
+# Public API - Basic Credentials
 
 ## Task Description
 This project is a simple public API that returns basic credentials in JSON format. The API provides:
