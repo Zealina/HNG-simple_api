@@ -23,7 +23,7 @@ To run this API locally, follow these steps:
 
 2. Install dependencies:
    ```sh
-   pip install flask flask-cors
+   pip install -r requirements.txt
    ```
 
 3. Run the API:

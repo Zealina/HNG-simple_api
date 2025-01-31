@@ -15,7 +15,7 @@ def index():
     my_credentials_json = {
             'email': 'hamilsebastine@gmail.com',
             'current_datetime': datetime.now().isoformat(),
-            'github_url': 'https://github.com/zealina/HNG-simple_api'
+            'github_url': 'https://github.com/Zealina/HNG-simple_api'
             }
     return (jsonify(my_credentials_json)), 200
 
