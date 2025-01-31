@@ -14,7 +14,7 @@ def index():
     """Returns owner credentials"""
     my_credentials_json = {
             'email': 'hamilsebastine@gmail.com',
-            'current_datetime': datetime.utcnow() + 'Z',
+            'current_datetime': datetime.utcnow().isoformat() + 'Z',
             'github_url': 'https://github.com/Zealina/HNG-simple_api'
             }
     return (jsonify(my_credentials_json)), 200
